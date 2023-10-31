@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+}
+
+.menu_bar {
+    background-color: rgba(22, 19, 19, 0.945);
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+/* .logo {
+    color: white;
+    font-size: 30px;
+} */
+
+.logo span {
+    color: blue;
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li {
+    padding: 10px 17.5px;
+    position: relative;
+}
+
+.menu_bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+
+    transition: all 0.3s;
+}
+
+
+
+.menu_bar ul li a:hover {
+    color: blue;
+}
+
+
+/* write by Me ( Sothy Rith ) line 64 -> 69 */
+#style a:hover {
+    color: black;
+    background-color: white;
+}
+/* write by Me ( Sothy Rith ) line 64 -> 69 */
+
+
+.dropdown_menu {
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgba(22, 19, 19, 0.945);
+
+}
+
+.dropdown_menu ul {
+    display: block;
+    margin: 18.5px;
+}
+
+.dropdown_menu ul li {
+    width: 215px;
+    padding: 1px;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+.home {
+    border: 2px white solid;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+
+/* End style Header */
