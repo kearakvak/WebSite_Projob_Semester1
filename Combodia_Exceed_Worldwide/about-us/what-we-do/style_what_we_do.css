@@ -88,15 +88,17 @@ a {
     margin: 18.5px;
 }
 
+/*  to dropdown Menu */
 .dropdown_menu ul li {
-    width: 215px;
+    /* width: 215px; */
+
     padding: 1px;
 }
 
 .home {
     border: 2px white solid;
     border-radius: 20px;
-    padding: 7px;
+    padding: 10px 20px;
 }
 
 
@@ -311,9 +313,10 @@ a {
     padding: 50px 0px;
     justify-content: space-around;
     /* position: relative; */
-    width: 1300px;
+    width: auto;
+    /* width: 1300px; */
     /* align-items: center; */
-    margin: auto;
+    margin: 70px 200px;
 }
 
 image {
