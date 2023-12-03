@@ -296,16 +296,16 @@ a {
 
 /* Body */
 .content_body .body_part1 p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .body_part1 h1 {
     color: rgb(193, 23, 57);
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .body_part1 h3 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .content_body {
