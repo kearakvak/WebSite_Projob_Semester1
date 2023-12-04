@@ -305,6 +305,11 @@ a {
 }
 
 .body_part1 h3 {
+    font-size: 25px;
+    color: coral;
+}
+
+.body_part1 h4 {
     font-size: 20px;
 }
 
@@ -405,14 +410,14 @@ image {
     height: 8px;
     width: 8px;
     bottom: -3px;
-    left: 50px;
+    left: 40px;
     transform: translate(-50%) rotate(45deg);
     transition: all 1s ease;
 }
 
 .menuIcon .item:hover .tooltip {
     top: -45px;
-    opacity: 1;
+    opacity: 2;
 
 }
 

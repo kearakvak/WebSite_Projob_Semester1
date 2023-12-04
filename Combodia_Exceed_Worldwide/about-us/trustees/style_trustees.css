@@ -305,6 +305,11 @@ a {
 }
 
 .body_part1 h3 {
+    font-size: 30px;
+    color: coral;
+}
+
+.body_part1 h4 {
     font-size: 20px;
 }
 
@@ -322,6 +327,20 @@ a {
 image {
     height: 300px;
     width: 300px;
+}
+
+.imageL {
+    float: left;
+    width: 400px;
+    height: auto;
+    padding-right: 30px;
+}
+
+.imageR {
+    float: right;
+    width: 400px;
+    height: auto;
+    padding-left: 30px;
 }
 
 .body_part1 {
