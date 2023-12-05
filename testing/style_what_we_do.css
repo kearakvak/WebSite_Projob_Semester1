@@ -63,7 +63,6 @@ a {
 
 /* write by Me ( Sothy Rith ) line 64 -> 69 */
 #style a:hover {
-
     color: black;
     background-color: white;
 }
@@ -76,7 +75,6 @@ a {
 }
 
 .menu_bar ul li:hover .dropdown_menu {
-
     display: block;
     position: absolute;
     left: 0;
@@ -298,16 +296,16 @@ a {
 
 /* Body */
 .content_body .body_part1 p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .body_part1 h1 {
     color: rgb(193, 23, 57);
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .body_part1 h3 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .content_body {
@@ -407,14 +405,14 @@ image {
     height: 8px;
     width: 8px;
     bottom: -3px;
-    left: 50px;
+    left: 40px;
     transform: translate(-50%) rotate(45deg);
     transition: all 1s ease;
 }
 
 .menuIcon .item:hover .tooltip {
     top: -45px;
-    opacity: 1;
+    opacity: 2;
 
 }
 
