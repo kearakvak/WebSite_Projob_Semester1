@@ -344,7 +344,19 @@ image {
 }
 
 .imageM {
-    height: 600px;
+    width: 1000px;
+    padding: 0px 30px;
+}
+
+p img {
+    max-width: 100%;
+    /* Make sure the image doesn't exceed its container */
+    height: auto;
+    /* Maintain the aspect ratio */
+    display: block;
+    /* Remove extra space below the image */
+    margin: 0 auto;
+    /* Center the image horizontally */
 }
 
 .body_part1 {
