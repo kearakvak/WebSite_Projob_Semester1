@@ -245,17 +245,6 @@ img {vertical-align: middle;}
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-/* .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-} */
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -387,40 +376,6 @@ img {vertical-align: middle;}
 }
 
 /* End style footer */
-
-/* .footer {
-    text-align: center;
-    padding-top: 100px;
-    background-color: beige;
-
-} */
-
-/* .footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-
-    border: 3px solid #000000;
-    
-    background-color: gray;
-    height: 370px;
-    width: 100%;
-    
-    text-align: end;
-    padding-right: 20px;
-} */
-
-/* .footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 370px;
-
-    background-color: #f1f1f1;
-    padding: 100px;
-    text-align: center;
-} */
 
 /* new style footer write by kearakvak */
 
