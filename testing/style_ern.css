@@ -344,7 +344,12 @@ image {
 }
 
 .imageM {
-    height: 600px;
+    width: 1000px;
+}
+
+.Email {
+    color: orange;
+    text-decoration: none;
 }
 
 .body_part1 {
