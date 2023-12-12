@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exceed Worldwide</title>
-    <link rel="stylesheet" href="home.css">    
+    <link rel="stylesheet" href="home.css">
     <!-- <script src="script.js"></script> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -28,7 +29,7 @@
                             <li><a href="trustees.html">TRUSTEES</a></li>
                             <li><a href="our_history.html">OUR HISTORY</a></li>
                             <li><a href="our_awards.html">OUR AWARDS</a></li>
-                            <li><a href="faqs.html">FAQS</a></li>
+                            <li><a href="faqs.html">FAQaS</a></li>
                         </ul>
                     </div>
 
@@ -68,7 +69,8 @@
                             <li><a href="ern.html">ERN </a></li>
                             <li><a href="members_of_ern.html">MEMBERS OF ERN</a></li>
                             <li><a href="projects_&_publications.html">PROJECTS & PUBLICATIONS</a></li>
-                            <li><a href="projects_&_publications.html">ATLAS&nbsp;OF&nbsp;SPINAL&nbsp;ORTHOTICS</a></li>
+                            <li><a href="atlas_of_spinal_orthotics.html">ATLAS&nbsp;OF&nbsp;SPINAL&nbsp;ORTHOTICS</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -119,36 +121,36 @@
 
     <div class="content">
         <img class="logo_cover" src="/testing/img/logo.png">
-        
+
         <!-- <img class="logo_cover" src="/img/pic1.jpg"> -->
 
         <div>
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                  <div class="numbertext">1 / 3</div>
-                  <img src="/testing/img/pic1.jpg" style="width:100%">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="/testing/img/pic1.jpg" style="width:100%">
                 </div>
-                
+
                 <div class="mySlides fade">
-                  <div class="numbertext">2 / 3</div>
-                  <img src="/testing/img/pic2.jpg" style="width:100%">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="/testing/img/pic2.jpg" style="width:100%">
                 </div>
-                
+
                 <div class="mySlides fade">
-                  <div class="numbertext">3 / 3</div>
-                  <img src="/testing/img/pic3.png" style="width:100%">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="/testing/img/pic3.png" style="width:100%">
                 </div>
-                
+
                 <a class="prev" onclick="plusSlides(-1)">❮</a>
                 <a class="next" onclick="plusSlides(1)">❯</a>
-                
+
                 <br>
-                
+
                 <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
             </div>
         </div>
@@ -162,22 +164,26 @@
         <div class="under">
             <div>
                 <p class="p-content">
-                    <b>Losing mobility,</b> through limb loss or other reasons, can have devastating social and economic impacts, dramatically limiting access to work, social interaction, livelihood and independence. In poorly resourced countries, treatment and support services are not available to the vast majority of those who need them and these challenges are amplified. 
+                    <b>Losing mobility,</b> through limb loss or other reasons, can have devastating social and economic
+                    impacts, dramatically limiting access to work, social interaction, livelihood and independence. In
+                    poorly resourced countries, treatment and support services are not available to the vast majority of
+                    those who need them and these challenges are amplified.
                 </p>
                 <p class="p-content">
-                    <b>The Exceed organisation</b> has worked in Southeast Asia since 1989, to support people with disabilities, restore mobility and enable dependents to become independent contributors to society by: 
+                    <b>The Exceed organisation</b> has worked in Southeast Asia since 1989, to support people with
+                    disabilities, restore mobility and enable dependents to become independent contributors to society
+                    by:
                 </p>
-            </div>                      
+            </div>
             <div>
                 <a href="https://exceedworldwide.enthuse.com/pf/afoe">
-                    <img class="pic-center"
-                    style="width: 300px; margin-bottom: 20px;" 
-                    src="img/pic.png">
+                    <img class="pic-center" style="width: 300px; margin-bottom: 20px;" src="img/pic.png">
                 </a>
 
                 <img src="/testing/img/stats.png">
                 <p style="margin-bottom: 20px;">
-                    P&O professionals trained by Exceed have supported 3 million people with disabilities across 30 lower income countries.
+                    P&O professionals trained by Exceed have supported 3 million people with disabilities across 30
+                    lower income countries.
                 </p>
             </div>
 
@@ -185,47 +191,56 @@
             <script>
                 let slideIndex = 1;
                 showSlides(slideIndex);
-                
+
                 function plusSlides(n) {
-                  showSlides(slideIndex += n);
+                    showSlides(slideIndex += n);
                 }
-                
+
                 function currentSlide(n) {
-                  showSlides(slideIndex = n);
+                    showSlides(slideIndex = n);
                 }
-                
+
                 function showSlides(n) {
-                  let i;
-                  let slides = document.getElementsByClassName("mySlides");
-                  let dots = document.getElementsByClassName("dot");
-                  if (n > slides.length) {slideIndex = 1}    
-                  if (n < 1) {slideIndex = slides.length}
-                  for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
-                  }
-                  for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                  }
-                  slides[slideIndex-1].style.display = "block";  
-                  dots[slideIndex-1].className += " active";
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
                 }
             </script>
 
         </div>
         <p class="p-content">
-            <i>Equipping</i> – our NGO, Exceed Worldwide, trains local Prosthetic and Orthotic (P&O) professionals to provide high quality services.
-        </p> 
-        <p class="p-content">
-            <i>Enabling</i> – Exceed Worldwide provides accessible services for the most disadvantaged and supports people with disabilities in their communities to access education, training, employment or self-employment.
+            <i>Equipping</i> – our NGO, Exceed Worldwide, trains local Prosthetic and Orthotic (P&O) professionals to
+            provide high quality services.
         </p>
         <p class="p-content">
-            <i>Empowering</i> – advocating for disability rights and using research by the Exceed Research Network to find innovative ways to increase access to sustainable P&O services based on patients’ preferences and choices.  
+            <i>Enabling</i> – Exceed Worldwide provides accessible services for the most disadvantaged and supports
+            people with disabilities in their communities to access education, training, employment or self-employment.
         </p>
         <p class="p-content">
-            <b>Research & innovation</b> - comes from listening to patients and the P&O workforce and being aware of wider social and economic trends. Feedback from research has led to the launch of Exceed Social Enterprises and public private partnerships, which offers P&O patients choice and creates sustainable funding streams to support service provision for the most disadvantaged and increase access to services for all.
+            <i>Empowering</i> – advocating for disability rights and using research by the Exceed Research Network to
+            find innovative ways to increase access to sustainable P&O services based on patients’ preferences and
+            choices.
         </p>
         <p class="p-content">
-            In countries where 90% of those who need P&O support cannot access services, the future is about new thinking and innovation. A growing P&O sector will come from a developing mix of philanthropic, private and public services and partnerships and Exceed is leading the way.  
+            <b>Research & innovation</b> - comes from listening to patients and the P&O workforce and being aware of
+            wider social and economic trends. Feedback from research has led to the launch of Exceed Social Enterprises
+            and public private partnerships, which offers P&O patients choice and creates sustainable funding streams to
+            support service provision for the most disadvantaged and increase access to services for all.
+        </p>
+        <p class="p-content">
+            In countries where 90% of those who need P&O support cannot access services, the future is about new
+            thinking and innovation. A growing P&O sector will come from a developing mix of philanthropic, private and
+            public services and partnerships and Exceed is leading the way.
         </p>
 
         <div class="pic-news">
@@ -236,10 +251,11 @@
                 <img style="width: 90%;" src="/testing/img/videoyoutube.png">
                 <p style="font-size: 17px;">You can watch more videos about Exceed, our <br>
                     schools and clinics, students and service users, and <br>
-                    much more on our 
-                    <a id="youtube" href="https://www.youtube.com/watch?v=9L1YE3TNHkk" target="_blank"><b>YouTube channel.</b></a>
+                    much more on our
+                    <a id="youtube" href="https://www.youtube.com/watch?v=9L1YE3TNHkk" target="_blank"><b>YouTube
+                            channel.</b></a>
                 </p>
-            </div>            
+            </div>
         </div>
 
 
