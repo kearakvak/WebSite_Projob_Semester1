@@ -313,19 +313,6 @@ a {
     font-size: 20px;
 }
 
-.Table {
-    width: 100%;
-
-}
-
-.Table,
-th,
-td {
-    padding: 10px;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
 .content_body {
     display: flex;
     padding: 50px 0px;
